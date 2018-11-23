@@ -1,0 +1,11 @@
+subprojects {
+    group = 'org.mqttbee.examples'
+    version = '1.0'
+
+    repositories {
+        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://oss.jfrog.org/artifactory/oss-snapshot-local' }
+    }
+}
