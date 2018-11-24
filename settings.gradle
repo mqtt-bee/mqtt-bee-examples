@@ -1,1 +1,2 @@
 include 'mqtt-3-async'
+include 'mqtt-3-blocking'

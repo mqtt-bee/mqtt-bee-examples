@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'org.mqttbee.examples.mqtt3blocking.Application'
+
+dependencies {
+    compile 'org.mqttbee:mqtt-bee:1.0.0-SNAPSHOT'
+    runtime 'org.slf4j:slf4j-jdk14:1.7.25'
+}
